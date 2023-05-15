@@ -1,0 +1,32 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate"              : 115200,
+            "platform.stdio-convert-newlines"       : true
+        },
+        "NUMAKER_PFM_NANO130": {
+            "target.adc-smplcnt-list": "{A0, 10}, {A1, 11}"
+        },
+        "NUMAKER_PFM_NUC472": {
+            "target.eadc-extsmpt-list": "{A0, 20}, {A1, 21}"
+        },
+        "NUMAKER_PFM_M453": {
+            "target.eadc-extsmpt-list": "{A0, 20}, {A1, 21}"
+        },
+        "NUMAKER_IOT_M467": {
+            "target.eadc-extsmpt-list": "{A0, 20}, {A1, 21}"
+        },
+        "NUMAKER_IOT_M487": {
+            "target.eadc-extsmpt-list": "{A0, 20}, {A1, 21}"
+        },
+        "NUMAKER_IOT_M252": {
+            "target.eadc-extsmpt-list": "{A0, 20}, {A1, 21}"
+        },
+        "NUMAKER_IOT_M263A": {
+            "target.eadc-extsmpt-list": "{A0, 20}, {A1, 21}"
+        },
+        "NU_M2354": {
+            "target.eadc-extsmpt-list": "{A0, 20}, {A1, 21}"
+        }
+    }
+}
